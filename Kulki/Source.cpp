@@ -4,6 +4,6 @@
 using namespace std;
 
 int main() {
-	Plansza h;
+	Plansza h();
 	system("pause");
 }
