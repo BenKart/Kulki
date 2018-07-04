@@ -8,6 +8,10 @@ public:
 		czarny = 2,
 		brak = 0,
 	};
+	union polozenie {
+		int x;
+		int y;
+	};
 protected:
 	bool poloz(int, int, pionek);
 	bool czyzajety(int,int);
